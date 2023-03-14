@@ -1,0 +1,5 @@
+# compile
+javac -cp .:./lib/pdfbox-app-3.0.0-alpha3.jar AddJavaScript.java
+
+# Run
+java -cp .:./lib/pdfbox-app-3.0.0-alpha3.jar AddJavaScript [INPUT-PDF] [JAVASCRIPT-FILE] [OUTPUT-PDF]
